@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(150, 221, 68, 0.377);
+}
+
+
+
+a:hover {
+
+    color: aliceblue;
+   background: rgb(179, 22, 22);
+ }
+
+
+ .column {
+  webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: rgb(104, 178, 243);
+  margin: 10px;
+  padding: 10px;
+  height: 300px;
+}
+
+#parrafo {
+
+  color: brown;
+}
+
+h1 {
+
+  font-style: italic;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: blue;
+}
+
+header {
+
+  display: flex;
+  border: 3px solid brown;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+#best {
+
+  background-color: brown;
+}
+
+#bess {
+  background-color: coral;
+}
+
+h2 {
+   
+  padding: 20px 2px; 
+
+  font-style: italic;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  color: blueviolet;
+
+  margin-top: 1.5em;
+}
+
+#redes {
+
+  display:flex;
+  justify-content: flex-end;
+  
+}
+
+h3 {
+  font-style: italic;
+  color: black;
+}

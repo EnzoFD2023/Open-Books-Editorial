@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #ffffff;
+    color: #333;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 4px solid;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    position: relative;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header .highlight, header a:hover {
+    color: #e8491d;
+}
+
+header a:active {
+    color: #333;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.team-member {
+    width: 30%;
+    float: left;
+    margin: 2%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 80%;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.team-member p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        width: 100%;
+    }
+}
